@@ -21,32 +21,32 @@ const RecentBlogs = () => {
         <div className=" shadow-xl lg:mr-[40px] relative mb-5">
         <img src={img1} style={{ width: "382px", height: "252px" }} alt="" />
         <button className="btn btn-sm bg-[#FF3B00] absolute top-5 left-5 border-0">Stream</button>
-        <div className="mt-[33px] flex items-center">
+        <div className="mt-[33px] flex items-center px-5">
             <img src={img4} style={{ width: "52px", height: "52px" }} alt="" />
 
             <p className="text-xl font-semibold ml-[15px]">June 31st by Admin</p>
         </div>
-        <p className="mt-[15px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus quasi saepe ipsum!</p>
+        <p className="p-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus quasi saepe ipsum!</p>
         </div>
 
         <div className=" shadow-xl lg:mr-[40px] relative mb-5">
         <img src={img2} style={{ width: "382px", height: "252px" }} alt="" />
         <button className="btn btn-sm bg-[#FF3B00] absolute top-5 left-5 border-0">Stream</button>
-        <div className="mt-[33px] flex items-center">
+        <div className="mt-[33px] flex items-center px-5">
             <img src={img5} style={{ width: "52px", height: "52px" }} alt="" />
             <p className="text-xl font-semibold ml-[15px]">June 31st by Admin</p>
         </div>
-        <p className="mt-[15px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus quasi saepe ipsum!</p>
+        <p className="mt-[15px] p-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus quasi saepe ipsum!</p>
         </div>
 
         <div className="shadow-xl lg:mr-[40px]  relative mb-5">
         <img src={img3} style={{ width: "382px", height: "252px" }} alt="" />
         <button className="btn btn-sm absolute top-5 left-5 border-0">Press</button>
-        <div className="mt-[33px] flex items-center">
+        <div className="mt-[33px] flex items-center px-5">
             <img src={img4} style={{ width: "52px", height: "52px" }} alt="" />
             <p className="text-xl font-semibold ml-[15px]">June 31st by Admin</p>
         </div>
-        <p className="mt-[15px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus quasi saepe ipsum!</p>
+        <p className="mt-[15px] p-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus quasi saepe ipsum!</p>
         </div>
         </div>
 

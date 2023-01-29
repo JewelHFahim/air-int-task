@@ -7,6 +7,10 @@ import td5 from "../Assets/td5.png";
 import td6 from "../Assets/td6.png";
 
 const TopDestination = () => {
+
+    const BlgCnt = " w-[340px] lg:w-[380px] h-[279px] relative";
+    const TitleCnt = 'absolute top-[90px] left-[100px] text-[48px] text-white';
+
     return (
         <div className='mt-[81px] px-5 lg:px-[103px] w-screen'>
 
@@ -19,42 +23,34 @@ const TopDestination = () => {
 
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-[30px] mt-[40px]'>
 
-        <div className=" w-[340px] lg:w-[380px] h-[279px] relative">
+        <div className={BlgCnt}>
             <img src={td1} className="blur-[1px]" alt="" />
-            <p className='absolute top-[90px] left-[100px] text-[48px] text-white'>
-                America
-            </p>
-        </div>
-        <div className=" w-[340px] lg:w-[380px] h-[279px] relative">
-            <img src={td2} className="blur-[1px]" alt="" />
-            <p className='absolute top-[90px] left-[100px] text-[48px] text-white'>
-                Maldives
-            </p>
-        </div>
-        <div className=" w-[340px] lg:w-[380px] h-[279px] relative">
-            <img src={td3} className="blur-[1px]" alt="" />
-            <p className='absolute top-[90px] left-[100px] text-[48px] text-white'>
-                Africa
-            </p>
-        </div>
-        <div className=" w-[340px] lg:w-[380px] h-[279px] relative">
-            <img src={td4} className="blur-[1px]" alt="" />
-            <p className='absolute top-[90px] left-[100px] text-[48px] text-white'>
-                Japan
-            </p>
-        </div>
-        <div className=" w-[340px] lg:w-[380px] h-[279px] relative">
-            <img src={td5} className="blur-[1px]" alt="" />
-            <p className='absolute top-[90px] left-[100px] text-[48px] text-white'>
-                Australia
-            </p>
+            <p className={TitleCnt} >America</p>
         </div>
 
-        <div className=" w-[340px] lg:w-[380px] h-[279px] relative">
+        <div className={BlgCnt} >
+            <img src={td2} className="blur-[1px]" alt="" />
+            <p className={TitleCnt}>Maldives</p>
+        </div>
+
+        <div className={BlgCnt}>
+            <img src={td3} className="blur-[1px]" alt="" />
+            <p className={TitleCnt}>Africa</p>
+        </div>
+
+        <div className={BlgCnt}>
+            <img src={td4} className="blur-[1px]" alt="" />
+            <p className={TitleCnt}>Japan</p>
+        </div>
+
+        <div className={BlgCnt}>
+            <img src={td5} className="blur-[1px]" alt="" />
+            <p className={TitleCnt}>Australia</p>
+        </div>
+
+        <div className={BlgCnt}>
             <img src={td6} className="blur-[1px]" alt="" />
-            <p className='absolute top-[90px] left-[100px] text-[48px] text-white'>
-                India
-            </p>
+            <p className={TitleCnt}> India</p>
         </div>
 
         </div>

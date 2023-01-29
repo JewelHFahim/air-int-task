@@ -7,6 +7,10 @@ import { VscCircleFilled } from 'react-icons/vsc';
 
 
 const ReviewSection = () => {
+
+    const RgStr = <AiFillStar className='text-[#FF3B00] text-xl'/>;
+    const BgStr = <AiFillStar className='text-[#544E4E] text-xl'/>
+
     return (
         <div className='mt-[81px] px-5 w-screen lg:px-[140px]'>
 
@@ -23,11 +27,11 @@ const ReviewSection = () => {
                 <img src={img1} style={{ width: "240px", height: "240px" }} className="ml-10 lg:ml-0" alt="" />
                 <div className='border border-slate-200 mt-[75px] p-5 shadow-xl'>
                 <p className='flex justify-center'>
-                <AiFillStar className='text-[#FF3B00] text-xl'/>
-                <AiFillStar className='text-[#FF3B00] text-xl'/>
-                <AiFillStar className='text-[#FF3B00] text-xl'/>
-                <AiFillStar className='text-[#544E4E] text-xl'/>
-                <AiFillStar className='text-[#544E4E] text-xl'/>
+                {RgStr}
+                {RgStr}
+                {RgStr}
+                {BgStr}
+                {BgStr}
                 </p>
                 <p className='text-justify mt-[35px]'>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque assumenda cumque ipsam animi consequatur illo
@@ -41,11 +45,11 @@ const ReviewSection = () => {
                 <img src={img2} style={{ width: "240px", height: "240px" }} className="ml-10 lg:ml-0" alt="" />
                 <div className='border border-slate-200 mt-[75px] p-5 shadow-xl'>
                 <p className='flex justify-center'>
-                <AiFillStar className='text-[#FF3B00] text-xl'/>
-                <AiFillStar className='text-[#FF3B00] text-xl'/>
-                <AiFillStar className='text-[#FF3B00] text-xl'/>
-                <AiFillStar className='text-[#544E4E] text-xl'/>
-                <AiFillStar className='text-[#544E4E] text-xl'/>
+                {RgStr}
+                {RgStr}
+                {RgStr}
+                {BgStr}
+                {BgStr}
                 </p>
                 <p className='text-justify mt-[35px]'>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque assumenda cumque ipsam animi consequatur illo
@@ -59,11 +63,11 @@ const ReviewSection = () => {
                 <img src={img3} style={{ width: "240px", height: "240px" }} className="ml-10 lg:ml-0" alt="" />
                 <div className='border border-slate-200 mt-[75px] p-5 shadow-xl'>
                 <p className='flex justify-center'>
-                <AiFillStar className='text-[#FF3B00] text-xl'/>
-                <AiFillStar className='text-[#FF3B00] text-xl'/>
-                <AiFillStar className='text-[#FF3B00] text-xl'/>
-                <AiFillStar className='text-[#544E4E] text-xl'/>
-                <AiFillStar className='text-[#544E4E] text-xl'/>
+                {RgStr}
+                {RgStr}
+                {RgStr}
+                {BgStr}
+                {BgStr}
                 </p>
                 <p className='text-justify mt-[35px]'>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque assumenda cumque ipsam animi consequatur illo
